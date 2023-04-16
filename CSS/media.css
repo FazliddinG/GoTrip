@@ -1,0 +1,153 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .about__img {
+        max-width: 530px;
+    }
+
+    .about__wrapper {
+        margin-left: 10px;
+    }
+
+    .about__desc {
+        font-size: 16px;
+    }
+
+    .card {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    
+    
+    .about__content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .about__wrapper {
+        margin-left: 0;
+    }
+
+    .catalog__content {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card__title {
+        margin-top: 10px;
+    }
+
+    .title {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .about__desc {
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .card {
+        max-width: 220px;
+    }
+    
+    .catalog__content {
+        justify-content: center;
+    }
+
+    .footer__menu {
+        flex-direction: column;
+    }
+
+    .menu__link_bottom {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 540px) {
+
+    .nav__content {
+        flex-direction: column;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .title {
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+    
+    .menu__link {
+        margin-top: 10px;
+    }
+
+    .header__content {
+       height: 100vh;
+    }
+    
+    .header__title {
+        font-size: 60px;
+    }
+
+    .header__descr {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .header__button {
+        padding: 12px 67px;
+    }
+
+    .catalog__content {
+        justify-content: center;
+    }
+
+    .contact__content {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact__link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        margin-top: 20px;
+    }
+
+    .title_left {
+        text-align: center;
+    }
+
+    .footer__content {
+        flex-direction: column;
+    }
+
+    .menu__link_bottom {
+        margin: 0 10px;
+        margin-bottom: 15px;
+        
+    }
+
+    .footer__menu {
+        flex-direction: row;
+    }
+}
